@@ -1,12 +1,18 @@
 ---
 ---
 
-{% include header.html %}
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Joseph An</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  </head>
 
-<div
-  class="bg-teal-500 flex h-screen items-center justify-center w-full"
->
-  {{ content }}
-</div>
-
-{% include footer.html %}
+  <body>
+    <div class="bg-orange-100 h-screen w-full p-10 font-thin text-gray-700">
+      {{ content }}
+    </div>
+  </body>
+</html>
