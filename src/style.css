@@ -18,6 +18,7 @@
 .blog-post h5 { @apply text-2xl; }
 .blog-post h6 { @apply text-xl; }
 .blog-post p { @apply text-lg; }
+.blog-post .citations p { @apply text-sm; }
 .blog-post ul li { @apply text-lg; }
 
 .blog-post ul {
@@ -27,6 +28,11 @@
 .blog-post ul li {
   @apply ml-6;
 }
+
+.blog-post a {
+  @apply text-blue-500;
+}
+
 /* purgecss end ignore */
 
 @tailwind base;
