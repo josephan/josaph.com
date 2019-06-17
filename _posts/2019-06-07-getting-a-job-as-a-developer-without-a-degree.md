@@ -13,7 +13,7 @@ Here are the reasons I was able to get a job as a software developer without a d
 
 ##### Job Market
 
-According to the US Bureau of Labor Statistics the number of software developer jobs is projected to increase by 24% from 2016 to 2026. This is much faster than other jobs as the average is <sup><a href="#[1]">[1]</a></sup>. Last but not least, automating a software developer's job is extremely difficult because problem solving and creativity plays a critical role.
+According to the US Bureau of Labor Statistics the number of software developer jobs is projected to increase by 24% from 2016 to 2026. This is much faster than other jobs as the average is 7% <sup><a href="#[1]">[1]</a></sup>. Also automating a software developer's job is extremely difficult because problem solving and creativity plays a critical role.
 
 ##### Tools
 
