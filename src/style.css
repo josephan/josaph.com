@@ -1,3 +1,34 @@
+/* purgecss start ignore */
+.blog-post p,
+.blog-post h1,
+.blog-post h2,
+.blog-post h3,
+.blog-post h4,
+.blog-post h5,
+.blog-post h6,
+.blog-post ul
+{
+  @apply mb-3;
+}
+
+.blog-post h1 { @apply text-6xl; }
+.blog-post h2 { @apply text-5xl; }
+.blog-post h3 { @apply text-4xl; }
+.blog-post h4 { @apply text-3xl; }
+.blog-post h5 { @apply text-2xl; }
+.blog-post h6 { @apply text-xl; }
+.blog-post p { @apply text-lg; }
+.blog-post ul li { @apply text-lg; }
+
+.blog-post ul {
+  @apply list-disc;
+}
+
+.blog-post ul li {
+  @apply ml-6;
+}
+/* purgecss end ignore */
+
 @tailwind base;
 
 @tailwind components;

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="mb-4">
-  <p>Hello, my name is Joseph and I enjoy building things that people want.</p>
+  <p>Hello, my name is Joseph and I'm a software developer.</p>
   
   <p>Currently I'm working on <a href="https://ranked.fun" class="border-b" target="_blank">Ranked.Fun</a>.</p>
 </div>
@@ -16,3 +16,15 @@ layout: default
     <li><a href="https://linkedin.com/in/josaph" class="border-b" target="_blank">LinkedIn</a></li> 
   </ul>
 </div>
+
+<div class="mb-4">
+  <p>Posts:</p>
+  <ul class="list-disc ml-5">
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}" class="border-b">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
