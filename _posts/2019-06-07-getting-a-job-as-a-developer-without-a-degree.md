@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Getting a Job as a Developer Without a Degree"
+subtitle: "From a mimimum wage job to a $100,000 salary"
 ---
 
 If you want to become a developer to start a new career or build an app, you can do it.

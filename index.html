@@ -5,15 +5,15 @@ layout: default
 <div class="mb-4">
   <p>Hello, my name is Joseph and I'm a software developer.</p>
   
-  <p>Currently I'm working on <a href="https://ranked.fun" class="border-b" target="_blank">Ranked.Fun</a>.</p>
+  <p>Currently I'm working on <a href="https://ranked.fun" class="font-medium hover:underline" target="_blank">Ranked.Fun</a>.</p>
 </div>
 
 <div class="mb-4">
   <p>Socials:</p>
   <ul class="list-disc ml-5">
-    <li><a href="https://github.com/josephan" class="border-b" target="_blank">GitHub</a></li> 
-    <li><a href="https://twitter.com/an_joseph" class="border-b" target="_blank">Twitter</a></li> 
-    <li><a href="https://linkedin.com/in/josaph" class="border-b" target="_blank">LinkedIn</a></li> 
+    <li><a href="https://github.com/josephan" class="font-medium hover:underline" target="_blank">GitHub</a></li> 
+    <li><a href="https://twitter.com/an_joseph" class="font-medium hover:underline" target="_blank">Twitter</a></li> 
+    <li><a href="https://linkedin.com/in/josaph" class="font-medium hover:underline" target="_blank">LinkedIn</a></li> 
   </ul>
 </div>
 
@@ -22,7 +22,10 @@ layout: default
   <ul class="list-disc ml-5">
     {% for post in site.posts %}
       <li>
-        <a href="{{ post.url }}" class="border-b">{{ post.title }}</a>
+        <a href="{{ post.url }}" class="font-medium hover:underline">
+          {{ post.title }}:<br/>
+          <span class="text-sm font-normal">{{ post.subtitle }}</span>
+        </a>
       </li>
     {% endfor %}
   </ul>
