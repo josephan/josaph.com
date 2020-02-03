@@ -10,23 +10,24 @@
   <body class="bg-orange-100">
     <div class="max-w-2xl px-4 mx-auto py-6 font-normal text-gray-700 mb-10">
       <script charset="utf-8">
+        const age = Math.floor((new Date() - new Date("10/31/1995")) / (1000 * 60 * 60 * 24 * 365));
         console.log(
           "Timeline (helps me put time into perspective):\n",
           "\n",
           "Oct, 1995 - Born in Seoul, South Korea.\n",
           "Aug, 2001 - Immigrate to Toronto, ON, CA.\n",
           "Aug, 2009 - Start high school.\n",
-          "Apr, 2012 - Get Kindle and read.\n",
-          "Jul, 2013 - First minimum wage job - buy laptop and quit after 3 months.\n",
+          "Apr, 2012 - Get Kindle ebook reader.\n",
+          "Jul, 2013 - First minimum wage job.\n",
           "Sep, 2013 - Take another semester of high school because of poor grades.\n",
           "Sep, 2014 - Take a semester of Electrical Engineering at Ryerson University.\n",
           "Oct, 2015 - First salaried programming job.\n",
           "\n",
-          "???, ???? - Help parents retire.\n",
           "???, ???? - Become financially independent (make more than I spend, working for myself).\n",
           "\n",
           "Oct, 2085 - Estimated time of death (if I live to 90).\n",
           "\n",
+          `Current age: ${age} years old.\n`,
           "Last updated: Feb, 2020"
-        )
+        );
       </script>
