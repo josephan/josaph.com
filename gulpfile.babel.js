@@ -24,11 +24,9 @@ const jekyll = process.platform === "win32" ? "jekyll.bat" : "jekyll";
 
 // Custom PurgeCSS Extractor
 // https://github.com/FullHuman/purgecss
-class TailwindExtractor {
-  static extract(content) {
-    return content.match(/[A-z0-9-:\/]+/g) || [];
-  }
-}
+const TailwindExtractor = content => {
+  return content.match(/[\w-/:]+(?<!:)/g) || [];
+};
 
 task("buildJekyll", () => {
   browserSync.notify("Building Jekyll site...");

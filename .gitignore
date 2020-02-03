@@ -1,5 +1,6 @@
 _site
 .DS_Store
 .jekyll-metadata
+.jekyll-cache
 assets/css
 node_modules
