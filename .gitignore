@@ -4,4 +4,4 @@ _site
 .jekyll-cache
 assets/css
 node_modules
-!.gz
+!*.gz
